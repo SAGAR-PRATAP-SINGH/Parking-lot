@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Parking Lot Management System
 
 A robust RESTful API system built with NestJS for managing a car parking lot efficiently.
