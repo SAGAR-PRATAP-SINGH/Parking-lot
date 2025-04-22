@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Parking Lot Management System
 
 A robust RESTful API system built with NestJS for managing a car parking lot efficiently.
@@ -28,3 +29,6 @@ A robust RESTful API system built with NestJS for managing a car parking lot eff
 POST /parking_lot
 Body: {"no_of_slot": 6}
 ```
+=======
+# Parking-lot
+>>>>>>> 299c35d641930ee86c169f9dbfe83b88d408dbda
