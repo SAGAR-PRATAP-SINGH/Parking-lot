@@ -1,20 +1,30 @@
-# Parking Lot System
+# Parking Lot Management System
 
-A RESTful API system for managing a car parking lot.
+A robust RESTful API system built with NestJS for managing a car parking lot efficiently.
 
-## Features
+## Key Features
 
-- Initialize parking lot with specific size
-- Expand parking lot capacity
-- Park cars and get nearest available slot
-- Remove cars from parking
-- Get status of parking lot
-- Search cars by color
-- Search slots by car color
-- Search slot by car registration number
+- Initialize parking lot with configurable size
+- Dynamic parking lot capacity expansion
+- Intelligent nearest slot allocation for parking
+- Vehicle removal management
+- Real-time parking lot status
+- Search functionality:
+  - Find cars by color
+  - Locate slots by car color
+  - Find slot by registration number
 
-## Installation
+## Tech Stack
 
+- NestJS
+- TypeScript
+- Node.js
+- REST API
+
+## API Endpoints
+
+### Initialize Parking Lot
 ```bash
-npm install
+POST /parking_lot
+Body: {"no_of_slot": 6}
 ```
